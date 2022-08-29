@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Link from 'next/link'
-import { NavLink } from '../../../config'
+import { NavLink } from '@/config'
 
 type Props = {
 	show: any

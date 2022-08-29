@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-import { Covers } from '../components/quarterly/Covers'
-import { quarterlyCards } from '../config'
-import { Hero } from '../components/common/Hero'
+import { Covers } from '@components/quarterly/Covers'
+import { quarterlyCards } from '@/config'
+import { Hero } from '@components/common/Hero'
 
 const Heading = styled.h1`
 	color: #000;

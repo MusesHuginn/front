@@ -1,9 +1,8 @@
-import { useRouter } from 'next/router'
-import { Hero } from '../../components/common/Hero'
-// import { Heading } from '../../components/common/Heading'
+import { Hero } from '@components/common/Hero'
+// import { Heading } from '@components/common/Heading'
 import styled from 'styled-components'
-import { CourseList } from '../../components/learn/CourseList'
-import { erp } from '../../config'
+import { CourseList } from '@components/learn/CourseList'
+import { erp } from '@/config'
 
 const Heading = styled.h1`
 	color: #000;

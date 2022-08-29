@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { erp } from '@/config'
 import { VideoPlyr } from '@components/common/Plyr'
@@ -30,7 +31,24 @@ const TitleWrapper = styled.div`
 
 const Title = styled.h1``
 
+export const getStaticPaths = async () => {
+	const res = await fetch('https://jsonplaceholder.typicode.com/users')
+	const data = await res.json()
+	const paths = data.map((content) => {
+		return {
+			params: { id: content.id.toString() },
+		}
+	})
+
+	return {
+		paths,
+		fallback: false,
+	}
+}
+
 const Post = () => {
+	const router = useRouter()
+	const { pid } = router.query
 	return (
 		<>
 			<PlyrWrapper>

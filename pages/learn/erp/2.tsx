@@ -1,13 +1,13 @@
 import styled from 'styled-components'
-import { erp } from '../../../config'
-import { VideoPlyr } from '../../../components/common/Plyr'
+import { erp } from '@/config'
+import { VideoPlyr } from '@components/common/Plyr'
 import {
 	Heading,
 	Text,
 	Poem,
 	Quote,
 	Cite,
-} from '../../../components/learn/Typorgraphy/Typography'
+} from '@components/learn/Typorgraphy/Typography'
 
 const PlyrWrapper = styled.div`
 	height: 90vh;

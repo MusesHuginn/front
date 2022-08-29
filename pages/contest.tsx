@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-import { Hero } from '../components/common/Hero'
+import { Hero } from '@components/common/Hero'
 
 const Heading = styled.h1`
 	color: #000;

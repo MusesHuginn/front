@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-// import { Button } from '../components/home/button'
+// import { Button } from '@components/home/button'
 import { useRef, useEffect } from 'react'
 import { gsap } from 'gsap'
 // import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -9,7 +9,7 @@ import {
 	LocomotiveScrollProvider,
 	// useLocomotiveScroll,
 } from 'react-locomotive-scroll'
-import { Hero } from '../components/common/Hero'
+import { Hero } from '@components/common/Hero'
 
 const Main = styled.div`
 	color: #111;

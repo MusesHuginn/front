@@ -75,7 +75,7 @@ export default styled(StyledLink)`
 x
 
 ```javascript
-import StyledLink from '../components/StyledLink'
+import StyledLink from '@components/StyledLink'
 
 export default () => (
 	<StyledLink href="/post/[pid]" forwardedAs="/post/abc">

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-import { AudioPlyr } from '../components/common/Plyr'
+import { AudioPlyr } from '@components/common/Plyr'
 import 'plyr-react/plyr.css'
 
 const Hero = styled.div`
